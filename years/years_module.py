@@ -2,11 +2,19 @@ import datetime
 
 
 def years(age):
-    return
+    age = 100 - int(age)
+    allyear = 2016 + age
+    return allyear
 
 
 def main():
-    return
+    name = input("Enter your name:")
+    year = input("Enter your age:")
+    print("{0} you will be 100 year old in {1}".format(name, years(year)))
+    return year
+
+
+    #return
 
 
 if __name__ == '__main__':
